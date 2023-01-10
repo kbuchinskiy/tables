@@ -1,0 +1,74 @@
+.wrapper {
+
+}
+
+.wrapper {
+  margin: auto;
+  width: 800px;
+  position: relative;
+  overflow: auto;
+  box-shadow: 0 0 10px 4px #eee;
+}
+
+.table {
+  width: 1000px;
+}
+
+.table-col-1 {
+  background-color: #eee;
+  left: 0;
+  position: sticky;
+  z-index: 9999;
+}
+
+.buttons svg {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+
+.table h4 {
+  margin: 1em 0;
+}
+
+.table-row {
+  border-bottom: 1px solid #ccc;
+}
+
+.table-cell {
+  padding: 10px;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.table-row .table-col-1:last-child {
+  padding-right: 20px;
+}
+
+.table-row .table-col-6 {
+  padding-left: 20px;
+}
+
+.table .table-col-1 {
+  width: 300px;
+}
+
+.table .table-col-2 {
+  width: 100px;
+}
+
+.table .table-col-3 {
+  width: 150px;
+}
+
+.table .table-col-4 {
+  width: 50px;
+}
+
+.table .table-col-5 {
+  width: 200px;
+}
+
+.table .table-col-6 {
+  width: 150px;
+}
