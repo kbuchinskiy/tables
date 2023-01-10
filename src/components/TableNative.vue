@@ -8,16 +8,18 @@
             <p v-text="row.createdAt" />
           </div>
         </td>
-        <td>
-          <div class="table-cell table-col-2" v-text="row.latestStatus" />
+        <td class="table-col-2">
+          <div class="table-cell" v-text="row.latestStatus" />
         </td>
-        <td>
-          <div class="table-cell table-col-3" v-text="row.advertiserName" />
+        <td class="table-col-3">
+          <div class="table-cell" v-text="row.advertiserName" />
         </td>
-        <td><div class="table-cell table-col-4" v-text="row.id" /></td>
-        <td><div class="table-cell table-col-5" v-text="row.authorName" /></td>
-        <td>
-          <div class="table-cell table-col-6">
+        <td class="table-col-4"><div class="table-cell" v-text="row.id" /></td>
+        <td class="table-col-5">
+          <div class="table-cell" v-text="row.authorName" />
+        </td>
+        <td class="table-col-6">
+          <div class="table-cell">
             <div class="buttons">
               <font-awesome-icon icon="trash" />
               <font-awesome-icon icon="copy" />
